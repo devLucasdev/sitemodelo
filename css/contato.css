@@ -52,6 +52,7 @@ input#submit:hover{
 
 @media (max-width: 768px){
     main{
+        margin-top: 25px;
         flex-flow: column;
     }
     #container-contato, #container-contato2{
