@@ -73,10 +73,10 @@ aside{
     /*border: 1px solid red;*/
     background-color: #ccc;
     border: 3px solid #9b9b9b;
-    border-radius: 8px;
+    border-radius: 170px;
     width: 350px;
     height: 350px; 
-    margin: 10px;
+    margin: 15px;
 }
 #container-produtos .classe-produtos:hover{
     font-size: 1.5em;
@@ -89,15 +89,15 @@ aside{
     background-size: cover;
 }
 #proteses{
-    background: url(../img/protese.png) no-repeat;
+    background: url(../img/persona.avif) no-repeat center;
     background-size: cover;
 }
 #artroscopia{
-    background: url(../img/artroscopia.avif) no-repeat;
+    background: url(../img/med-esportiva.png) no-repeat;
     background-size: cover;
 }
 #coluna{
-    background: url(../img/coluna.webp) no-repeat;
+    background: url(../img/coluna.png) no-repeat;
     background-size: cover;
 }
 
