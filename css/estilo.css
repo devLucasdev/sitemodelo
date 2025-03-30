@@ -138,6 +138,7 @@ main section #produtos .foto-produto:hover{
 
 main#quem-somos{
     margin-bottom: 60px;
+    text-align: justify;
 }
 main#quem-somos .quem-somos{
     margin: 10px;
@@ -155,25 +156,9 @@ main#quem-somos h1{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding: 10px;
+    text-align: justify;
 }
-.caixas{
-    width: 30%;
-    height: 100%;
-    margin: 10px;
-    border-radius: 10px;
-}
-.caixas img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-.caixas:hover{
-    box-shadow: 0px 0px 30px rgba(28, 87, 0, 0.63);
-    overflow: hidden;
-    scale: 1.08;
-    transition: 0.5s;
-}
-
 /*Fim Area Quem Somos*/
 
 /*Area Compliance*/
@@ -222,12 +207,12 @@ form{
     flex-flow: column;
     align-items: center;
 }
-#CanalDenuncia #texto-denuncia{
+#CanalDenuncia .texto-denuncia{
     width: 90%;
     height: 150px;
     border-radius: 10px;
 }
-#enviar-denuncia{
+.enviar-denuncia{
     width: 40%;
     height: 65px;
     border-radius: 25px;
@@ -236,7 +221,7 @@ form{
     background-color: #76ce11;
     font-size: 1.5em;
 }
-#enviar-denuncia:hover{
+.enviar-denuncia:hover{
     background-color: #539409;
     cursor: pointer;
 }
