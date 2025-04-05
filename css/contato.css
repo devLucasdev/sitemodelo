@@ -11,6 +11,7 @@ main{
     justify-content: space-between;
     padding: 10px;
     margin-top: 0;
+    position: relative;
 }
 #container-contato{
     width: 35%;
@@ -48,6 +49,31 @@ input#submit{
 }
 input#submit:hover{
     background-color: #539409;
+}
+
+main .whatsapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 1;
+    bottom: 0px;  
+    right: 20px;  
+}
+main .whatsapp img{
+    
+    width: 100px;
+    height: 100px;
+}
+main .whatsapp p{
+    background-color: rgb(47, 79, 51);
+    border-radius: 5px;
+    margin-top: 4px;
+    padding: 5px;
 }
 
 @media (max-width: 768px){
